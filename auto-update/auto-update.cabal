@@ -18,6 +18,7 @@ library
   exposed-modules:     Control.AutoUpdate
                        Control.Debounce
                        Control.Debounce.Internal
+                       Control.OneShot
                        Control.Reaper
   other-modules:       Control.AutoUpdate.Util
   build-depends:       base >= 4.12 && < 5
